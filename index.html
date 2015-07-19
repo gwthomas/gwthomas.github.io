@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Garrett Thomas's Homepage</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css"
 </head>
 <body>
-    <h3>Welcome!</h3>
-    <p>This is the homepage for Garrett Thomas. It's still under construction. (Sorry!)
-        Check back in a while. I'm writing some notes about machine learning and related topics,
-        and I'll be putting them up here.</p>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-    <p>In the meantime, you can browse <a href="http://www.github.com/gwthomas">my GitHub</a> to see what I'm working on.</p>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <h3>About Me</h3>
-    <p>I am an undergraduate at UC Berkeley, studying Computer Science and Statistics.
-    My interests include statistical machine learning, education, algorithms, and neuroscience.</p>
+    <div class="container">
+        <h3>Welcome!</h3>
+        <p>This is the homepage for Garrett Thomas. It's still under construction. (Sorry!)
+            Check back in a while. I'm writing some notes about machine learning and related topics,
+            and I'll be putting them up here.</p>
+
+        <p>In the meantime, you can browse <a href="http://www.github.com/gwthomas">my GitHub</a> to see what I'm working on.</p>
+
+        <hr>
+
+        <h3 id="about">About Me</h3>
+        <p>I am an undergraduate at UC Berkeley, studying Computer Science and Statistics.
+        My interests include statistical machine learning, education, algorithms, and neuroscience.</p>
+
+        <hr>
+        
+        <h3 id="contact">Contact</h3>
+        <p>Feel free to reach out to me via email: <a href="mailto:gwthomas@berkeley.edu">gwthomas@berkeley.edu</a></p>
+    </div>
 </body>
 </html>
